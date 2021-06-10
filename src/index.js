@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Component from './components';
 import Input from './input';
 
 // Create a react component
@@ -10,7 +11,8 @@ if (module.hot) {
 
   const App = () => {
       return (
-          <Input/>
+        //   <Input/>
+        <Component/>
       )
   };
 
