@@ -1,8 +1,6 @@
 import React from 'react';
 import faker from 'faker';
 
-
-
 const Component = () => {
     return (
         <div className="ui container comments">
