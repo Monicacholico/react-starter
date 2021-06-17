@@ -36,7 +36,7 @@ if (module.hot) {
             comment={"What a post!"}
         />
         <CommentDetail
-            image= {faker.image.avatar()}
+            image={faker.image.avatar()}
             author={"Monica"}
             date={new Date().toLocaleTimeString()}
             comment={"Hey!"}
